@@ -3,6 +3,7 @@
 @import "global/fonts.css";
 @import "global/reboot.css";
 @import "global/visually-hidden.css";
+@import "global/container.css";
 
 /* Blocks */
 /* ------------------------------------ */
@@ -12,3 +13,4 @@
 @import "blocks/social.css";
 @import "blocks/breadcrumbs.css";
 @import "blocks/card-tour.css";
+@import "blocks/tours.css";
