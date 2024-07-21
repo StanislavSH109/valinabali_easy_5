@@ -14,4 +14,7 @@
 @import "blocks/breadcrumbs.css";
 @import "blocks/card-tour.css";
 @import "blocks/tours.css";
-@import "blocks/tours-season.css"
+@import "blocks/tours-season.css";
+@import "blocks/tours-info.css";
+@import "blocks/tour-review.css";
+

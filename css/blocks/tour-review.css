@@ -1,0 +1,34 @@
+.tour-review {
+    padding: 30px;
+}
+
+.tour-review__inner-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tour-review__inner-review {
+    display: flex;
+    gap: 15px;
+}
+
+.tour-review__text {
+    margin: 0;
+    color: #ffffff;
+    width: 520px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+}
+
+.tour-review__img {
+    border-radius: 50%;
+}
+
+.tour-review__info {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+}
