@@ -5,6 +5,7 @@
   border-radius: 24px;
   background-color: #ffffff;
   overflow: hidden;
+  height: 100%;
 }
 
 .card-tour__img {
@@ -16,12 +17,14 @@
   display: flex;
   flex-direction: column;
   padding: 18px 30px 30px 30px;
+  height: 100%;
 }
 
 .card-tour__content-top {
   display: flex;
   gap: 9px;
   margin: 0 0 10px;
+  justify-content: space-between;
 }
 
 .card-tour__title {
@@ -33,15 +36,36 @@
   font-weight: 700;
 }
 
+.card-tour__title-country {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: black;
+}
+
+.card-tour__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card-tour__label-wrapper {
+  display: flex;
+  gap: 5px;
+}
+
 .card-tour__label-info  {
   border-radius: 60px;
   background-color: #f9efcd;
   display: flex;
   padding: 6px 10px;
-  justify-content: center;
   align-items: center;
   gap: 4px;
-  margin: 0 0 0 auto;
+}
+
+.card-tour__label-info--airplane {
+  background-color: #F2E5FA;
 }
 
 .card-tour__label-info svg {
@@ -58,7 +82,6 @@
 .card-tour__text {
   font-size: 16px;
   line-height: 20px;
-  margin: 0 0 16px;
 }
 
 .card-tour__content-bottom {
@@ -70,7 +93,7 @@
 
 .card-tour__wrapper-inner {
   display: flex;
-  height: 100%;
+  justify-content: space-between;
   margin: auto 0 0;
 }
 
