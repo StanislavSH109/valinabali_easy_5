@@ -1,0 +1,42 @@
+.tours-season {
+    margin: 0 0 80px 0;
+}
+
+.tours-season__title {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #242424;
+}
+
+.tours-season__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tours-season__item--danang {
+    background-color: #E0E5FA;
+    height: 100px;
+}
+
+.tours-season__item--varadero {
+    background-color: #D2E8E5;
+    height: 100px;
+}
+
+.tours-season__item--bali {
+    background-color: #E0EFFA;
+    display: grid;
+    grid-row: span 2;
+}
+
+.tours-season__item--flat-review {
+    background: linear-gradient(87.12deg, #5839B0 1.65%, #4162B8 100%);
+    height: 100px;
+    display: grid;
+    grid-column: span 2;
+}
