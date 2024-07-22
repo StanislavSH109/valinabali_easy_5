@@ -33,7 +33,7 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
-.tour-review {
+.tour-review--background {
     background: linear-gradient(87.12deg, #5839B0 1.65%, #4162B8 100%);
     display: grid;
     grid-column: span 2;

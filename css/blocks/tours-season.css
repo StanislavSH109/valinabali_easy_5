@@ -19,3 +19,12 @@
     gap: 20px;
 }
 
+.tours-season__item--size-big {
+    display: grid;
+    grid-row: span 2;
+} 
+
+.tours-season__item--flat {
+    display: grid;
+    grid-column: span 2;
+}

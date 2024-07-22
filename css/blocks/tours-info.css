@@ -58,11 +58,8 @@
 
 .tours-info--varadero {
     background-color: #D2E8E5;
-
 }
 
 .tours-info--bali {
     background-color: #E0EFFA;
-    display: grid;
-    grid-row: span 2;
 }
