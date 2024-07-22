@@ -5,6 +5,7 @@
     flex-direction: column;
     gap: 20px;
     padding: 20px;
+    border-radius: 24px;
 }
 
 .tours-info__img {
@@ -49,4 +50,19 @@
     font-weight: 500;
     color: #ffffff;
     text-align: center;
+}
+
+.tours-info--danang {
+    background-color: #E0E5FA;
+}
+
+.tours-info--varadero {
+    background-color: #D2E8E5;
+
+}
+
+.tours-info--bali {
+    background-color: #E0EFFA;
+    display: grid;
+    grid-row: span 2;
 }

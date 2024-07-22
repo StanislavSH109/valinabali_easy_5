@@ -19,28 +19,3 @@
     gap: 20px;
 }
 
-.tours-season__item {
-    border-radius: 24px;
-}
-
-.tours-season__item--danang {
-    background-color: #E0E5FA;
-}
-
-.tours-season__item--varadero {
-    background-color: #D2E8E5;
-
-}
-
-.tours-season__item--bali {
-    background-color: #E0EFFA;
-    display: grid;
-    grid-row: span 2;
-}
-
-.tours-season__item--flat-review {
-    background: linear-gradient(87.12deg, #5839B0 1.65%, #4162B8 100%);
-    display: grid;
-    grid-column: span 2;
-}
-
