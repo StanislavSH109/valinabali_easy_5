@@ -93,10 +93,10 @@
   gap: 30px;
 }
 
-.card-tour__wrapper-inner {
+.card-tour--flat .card-tour__inner{
   display: flex;
   justify-content: space-between;
-  margin: auto 0 0;
+  flex-direction: row;
 }
 
 .card-tour__price-wrapper {

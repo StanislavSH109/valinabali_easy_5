@@ -40,3 +40,7 @@
     border-radius: 24px;
 }
 
+.tour-review__inner-contacts {
+    display: flex;
+    gap: 15px;
+}
