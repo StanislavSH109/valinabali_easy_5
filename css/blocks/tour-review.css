@@ -1,10 +1,14 @@
 .tour-review {
+    display: flex;
+    flex-direction: column;
     padding: 30px;
+    justify-content: space-between;
 }
 
 .tour-review__inner-text {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .tour-review__inner-review {
@@ -13,7 +17,7 @@
 }
 
 .tour-review__text {
-    margin: 0;
+    margin: 0 0 20px 0;
     color: #ffffff;
     width: 520px;
     font-size: 20px;
@@ -24,6 +28,8 @@
 
 .tour-review__img {
     border-radius: 50%;
+    width: 100px;
+    height: 100px;
 }
 
 .tour-review__info {
@@ -35,9 +41,10 @@
 
 .tour-review--background {
     background: linear-gradient(87.12deg, #5839B0 1.65%, #4162B8 100%);
-    display: grid;
-    grid-column: span 2;
     border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    grid: span 2;
 }
 
 .tour-review__inner-contacts {
