@@ -9,7 +9,7 @@
 }
 
 .card-tour__img {
-  height: 240px;
+  min-height: 240px;
   width: 100%;
 }
 
